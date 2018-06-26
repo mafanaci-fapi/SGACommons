@@ -2,77 +2,63 @@ package br.edu.fapi.sga.model.funcionario;
 
 public class Funcionario {
 
-	private static String nomeCompleto;
-	private static String cpf;
+	private String nomeCompleto;
+	private String cpf;
 	private String rg;
 	private String telefone;
 	private String email;
 	private String endereco;
 	private boolean status;
-	private static int idFuncionario;
-
-	public static String getNomeCompleto() {
+	private int idFuncionario;
+	
+	public String getNomeCompleto() {
 		return nomeCompleto;
 	}
-
-	public static void setNomeCompleto(String nomeCompleto) {
-		nomeCompleto = nomeCompleto;
+	public void setNomeCompleto(String nomeCompleto) {
+		this.nomeCompleto = nomeCompleto;
 	}
-
-	public static String getCpf() {
+	public String getCpf() {
 		return cpf;
 	}
-
-	public static void setCpf(String cpf) {
-		cpf = cpf;
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
 	}
-
 	public String getRg() {
 		return rg;
 	}
-
-	public static void setRg(String rg) {
-		rg = rg;
+	public void setRg(String rg) {
+		this.rg = rg;
 	}
-
 	public String getTelefone() {
 		return telefone;
 	}
-
-	public static void setTelefone(String telefone) {
-		telefone = telefone;
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
 	}
-
 	public String getEmail() {
 		return email;
 	}
-
-	public static void setEmail(String email) {
-		email = email;
+	public void setEmail(String email) {
+		this.email = email;
 	}
-
 	public String getEndereco() {
 		return endereco;
 	}
-
-	public static void setEndereco(String endereco) {
-		endereco = endereco;
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
 	}
-
-	public boolean getStatus() {
+	public boolean isStatus() {
 		return status;
 	}
-
-	public static void setStatus(boolean status) {
-		status = status;
+	public void setStatus(boolean status) {
+		this.status = status;
 	}
-
-	public static int getIdFuncionario() {
+	public int getIdFuncionario() {
 		return idFuncionario;
 	}
-
-	public static void setIdFuncionario(int idFuncionario) {
-		idFuncionario = idFuncionario;
+	public void setIdFuncionario(int idFuncionario) {
+		this.idFuncionario = idFuncionario;
 	}
+
 
 }
