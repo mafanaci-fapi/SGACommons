@@ -1,6 +1,7 @@
 package br.edu.fapi.sga.model.aluno;
 
 public class Aluno {
+	private int codigo;
 	private String nome;
 	private String cpf;
 	private String rg;
@@ -49,6 +50,12 @@ public class Aluno {
 	} 
 	public static void setIdAluno(int idAluno) {
 		Aluno.idAluno = idAluno;
+	}
+	public int getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
 	}
 	
 	
