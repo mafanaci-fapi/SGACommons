@@ -43,10 +43,10 @@ public class Aluno {
 	}
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
-	}
+	} 
 	public static int getIdAluno() {
 		return idAluno;
-	}
+	} 
 	public static void setIdAluno(int idAluno) {
 		Aluno.idAluno = idAluno;
 	}
