@@ -30,8 +30,8 @@ public class GradeHoraria {
 		this.turma = turma;
 	}
 
-	public String getGrade(int cont1, int cont2) {
-		return grade[cont1][cont2];
+	public String getGrade(int linha, int coluna) {
+		return grade[linha][coluna];
 	}
 
 	public void setGrade(int linha, int coluna, String grade) {
