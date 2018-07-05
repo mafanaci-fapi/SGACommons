@@ -34,7 +34,7 @@ public class GradeHoraria {
 		return grade[cont1][cont2];
 	}
 
-	public void setGrade(int cont1, int cont2, String grade) {
-		this.grade[cont1][cont2] = grade;
+	public void setGrade(int linha, int coluna, String grade) {
+		this.grade[linha][coluna] = grade;
 	}
 }
