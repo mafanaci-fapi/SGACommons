@@ -1,10 +1,13 @@
 package br.edu.fapi.sga.model.curso;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Curso {
     private String nome;
     private int codigo;
     private String duracao;
-    private String[] disciplinas = new String[3];
+    private List<String> disciplinas = new ArrayList();
 
     public String getNome() {
         return nome;
@@ -30,11 +33,15 @@ public class Curso {
         this.duracao = duracao;
     }
 
-    public String getDisciplinas(int cont) {
-        return disciplinas[cont];
+    public List<String> getDisciplinas() {
+        return disciplinas;
     }
 
-    public void setDisciplinas(int cont, String disciplinas) {
-        this.disciplinas[cont] = disciplinas;
+    public void setDisciplinas(List<String> disciplinas) {
+        this.disciplinas = disciplinas;
+    }
+
+    public int tamanhoLista() {
+        return disciplinas.size();
     }
 }
